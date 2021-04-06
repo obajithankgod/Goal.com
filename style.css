@@ -1,0 +1,396 @@
+*{
+    
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+   
+}
+body{
+    background-color: #dbd9d9;
+    
+}
+header{
+    background-color: #001d2b;
+    width: 100%;
+    height: 170px;
+    position: fixed;
+    z-index: 2;
+
+}
+header ul{
+    display: flex;
+    font-family: Helvetica, Arial;
+    font-size: 23px;
+    margin-top: 50px;
+    
+}
+header ul li a{
+    color: white;
+    border-left: 3px solid #0aa2bd;
+    padding-left: 10px;
+    margin-left: 15px;
+    margin-top:20px ;
+}
+header ul li a{
+    position: relative;
+    top: 60px;
+}
+#logo{
+    width: 100%;
+    height: 70%;
+    margin-top: 20px;
+}
+#function{
+    font-size: 40px;
+}
+.social-media-icon{
+    position: relative;
+    width: 30%;
+    height: 50px;
+    float: right;
+    right: -5px;
+}
+.icon1, .icon2, .icon3, .icon4, .icon5{
+    position: absolute;
+    width: 100%;
+    height:100px; 
+    top: 100px;
+    
+
+}
+.icon1{
+    right: 330px;
+}
+.icon2{
+    right: 280px;
+}
+.icon3{
+    right: 220px;
+}
+.icon4{
+    right: 160px;
+    top: 110px;
+}
+.icon5{
+    right: 90px;
+    top: 110px;
+    border-left: 3px solid #0aa2bd ;
+    padding-left: 20px;
+}
+h3{
+    position: absolute;
+    right: 20px;
+    top: 110px;
+    color: white;
+}
+.my-baner{
+    display: flex;
+    width: 80%;
+    height: 20px;
+    margin-top: 10px;
+    background-color: black;
+}
+.top-image{
+    position: absolute;
+    left: 280px;
+    top: 0px;
+}
+.news-bar{
+    display: flex;
+    position: relative;
+    left: 240px;
+    top: 298px;
+    background-color:#001d2b;
+    width:70%;
+    height: 60px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+h2{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.matche-infor1{
+    position: absolute;
+    background-color: rgb(76, 206, 238);
+    width: 34%;
+    height: 50px;
+    top: 373px;
+    left: 240px;
+    color: white;
+}
+.matche-Infor2{
+    position: absolute;
+    border: 1px solid black;
+    width: 34%;
+    height: 50px;
+    top: 373px;
+    right: 215px;
+    color: black;
+}
+.matche-infor1, .matche-Infor2{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.football-club{
+    position: absolute;
+    top: 430px;
+    width: 45%;
+    height: 250px;
+    left: 240px;
+    background-color: white;
+}
+.advertisment{
+    position: absolute;
+    top: 430px;
+    background-color: white;
+    width: 23%;
+    height: 1162px;
+    right: 210px;
+}
+.advertize{
+    position: sticky;
+    top: 170px;
+}
+.information{
+    background-color: #001d2b;
+    width: 22%;
+    height: 420px;
+    position: relative;
+    top: 740px;
+    left: 240px;
+
+}
+.information2{
+    width: 22%;
+    height: 420px;
+    background-color:white;
+    position: relative;
+    top: 320px;
+    left: 587px;
+}
+.tittle2{
+    color: white;
+    
+}
+.tittle3{
+    color: black;
+    
+}
+.tittle2, .tittle3{
+    display: flex;
+    align-content: center;
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+}
+.grid-container1{
+    background-color: white;
+    width:22%;
+    height: 80px;
+    position: relative;
+    top: 400px;
+    left: 587px;
+}
+.grid-container2{
+    background-color: white;
+    width:22%;
+    height: 80px;
+    position: relative;
+    top:320px;
+    left: 240px;
+}
+.grid-container3{
+    background-color: white;
+    width:22%;
+    height: 80px;
+    position: relative;
+    top: 400px;
+    left: 587px;
+}
+.grid-container4{
+    background-color: white;
+    width:22%;
+    height: 80px;
+    position: relative;
+    top: 320px;
+    left: 240px;
+}
+.sub-container1{
+    background-color: white;
+    width:22%;
+    height: 50px;
+    position: relative;
+    top: 1px;
+    left: 587px;
+    
+}
+.sub-container2{
+    background-color: #001d2b;
+    width:22%;
+    height: 50px;
+    position: relative;
+    top: -49px;
+    left: 240px;
+}
+.sub-container3{
+    background-color: blue;
+    border-top: 1px solid red;
+    width:22%;
+    height: 50px;
+    position: relative;
+    top: 221px;
+    left: 587px;
+}
+.sub-container4{
+    background-color: white;
+    width:22%;
+    height: 50px;
+    position: relative;
+    top: 171px;
+    left: 240px;
+}
+.sub-container5{
+    background-color: white;
+    width:22%;
+    height: 50px;
+    position: relative;
+    top: -39px;
+    left: 587px;
+}
+.sub-container6{
+    background-color: #001d2b;
+    border-top: 1px solid red;
+    width:22%;
+    height: 50px;
+    position: relative;
+    top: -89px;
+    left: 240px;
+}
+.statement1{
+    position: absolute;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.grid-container5{
+    background-color: white;
+    width:34%;
+    height: 80px;
+    position: relative;
+    top: 100px;
+    left: 780px;
+    
+}
+.grid-container6{
+    background-color: white;
+    width:34%;
+    height: 80px;
+    position: relative;
+    top: 20px;
+    left: 240px;
+}
+.sub-container7{
+    background-color: blue;
+    width:34%;
+    height: 40px;
+    position: relative;
+    top: 21px;
+    left: 240px;
+}
+.sub-container8{
+    
+    background-color: white;
+    width:34%;
+    height: 40px;
+    position: relative;
+    top: -19px;
+    left: 780px;
+    
+}
+.video-section{
+    display: grid;
+    grid-template-columns: 50fr 50fr;
+    grid-template-rows: repeat(3, 50fr);
+    grid-template-areas: 
+    "sub-section"
+    "sub-section2";
+    grid-column-gap: 2em;
+    margin-left: 225px;
+    position: relative;
+    width: 72%;
+    height: 600px;
+    background-color:#001d2b;
+}
+.sub-section{
+    display: grid;
+    grid-template-columns: 100fr;
+    grid-template-rows: repeat(1, 100%);
+    grid-template-areas: 
+    "section";
+    grid-gap:2em;
+    margin: 20px;
+    position: relative;
+    width: 100%;
+    height: 460px;
+    margin-top: 60px;
+}
+.sub-section, .sub-section2{
+    
+}
+.section{
+    background-color: white;
+}
+.sub-section2{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, 100%);
+    grid-template-areas: 
+    "section1"
+    "section2"
+    "section3";
+    grid-gap:5rem;
+    margin: 20px;
+    margin-top: 60px;
+    width: 92%;
+    height: 100px;
+}
+.section1, .section2, .section3{
+    background-color: white;
+}
+#header{
+    top: 20px;
+    position: absolute;
+    font-size: 20px;
+    color: white;
+
+}
+.statement2{
+    position: absolute;
+    color: #001d2b;
+    top: 350px;
+    right: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.statement3{
+    position: absolute;
+    color: white;
+    right: 400px;
+    top: 20px;
+}
+hr{
+    position: relative;
+    top: 20px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
